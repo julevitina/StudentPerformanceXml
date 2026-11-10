@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="StudentPerformanceXml.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Student Performance Analysis">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="25"
+            Spacing="12">
+
+            <Label
+                Text="Student Performance Analysis"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <Button
+                Text="Open XML File"
+                Clicked="OnOpenFileClicked" />
+
+            <Label
+                x:Name="fileLabel"
+                Text="File is not selected"
+                FontSize="12" />
+
+            <Entry
+                x:Name="fullNameEntry"
+                Placeholder="Student full name" />
+
+            <Picker
+                x:Name="facultyPicker"
+                Title="Faculty" />
+
+            <Picker
+                x:Name="departmentPicker"
+                Title="Department" />
+
+            <Picker
+                x:Name="coursePicker"
+                Title="Course" />
+
+            <Picker
+                x:Name="subjectPicker"
+                Title="Subject" />
+
+            <Picker
+                x:Name="strategyPicker"
+                Title="XML analysis method" />
+
+            <Button
+                Text="Search"
+                Clicked="OnSearchClicked" />
+
+            <Button
+                Text="Clear"
+                Clicked="OnClearClicked" />
+
+            <Label
+                Text="Search results:"
+                FontAttributes="Bold"
+                FontSize="18" />
+
+            <Editor
+                x:Name="resultsEditor"
+                HeightRequest="300"
+                IsReadOnly="True" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

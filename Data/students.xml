@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+
+	<Student
+		Id="1"
+		FullName="Іваненко Іван"
+		Faculty="ФКНК"
+		Department="Комп'ютерні науки"
+		Course="2">
+
+		<Subjects>
+			<Subject Name="ООП" Grade="95" />
+			<Subject Name="Дискретна математика" Grade="88" />
+			<Subject Name="Теорія ймовірностей" Grade="90" />
+		</Subjects>
+
+	</Student>
+
+	<Student
+		Id="2"
+		FullName="Петренко Анна"
+		Faculty="ФКНК"
+		Course="2">
+
+		<Subjects>
+			<Subject Name="ООП" Grade="82" />
+			<Subject Name="Дискретна математика" Grade="91" />
+		</Subjects>
+
+	</Student>
+
+	<Student
+		Id="3"
+		FullName="Коваль Максим"
+		Faculty="ФКНК"
+		Department="Системний аналіз"
+		Course="3"
+		Group="АСД-1">
+
+		<Subjects>
+			<Subject Name="ООП" Grade="76" />
+			<Subject Name="Теорія ймовірностей" Grade="85" />
+		</Subjects>
+
+	</Student>
+
+</Students>
